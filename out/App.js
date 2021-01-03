@@ -24,8 +24,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 var react_dom_1 = require("react-dom");
-var Index_1 = __importDefault(require("./Components/Index"));
+var App_1 = __importDefault(require("./Components/App"));
 react_dom_1.render(React.createElement(React.Fragment, null,
     " ",
-    React.createElement(Index_1.default, null),
+    React.createElement(App_1.default, null),
     " "), document.querySelector("#app"));
